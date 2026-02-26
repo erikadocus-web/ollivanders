@@ -1,12 +1,12 @@
-# 🪄 Ollivanders - Sistema de Gestión de Inventario
+# 🪄 Ollivanders shop
 
-Bienvenido a **Ollivanders**, un sistema de gestión de inventario para la legendaria tienda de varitas mágicas del mundo mágico. Este proyecto implementa un kata tipo *Gilded Rose* con temática de Harry Potter.
+Bienvenido a **Ollivanders**, un sistema de gestión de inventario para la legendaria tienda de varitas mágicas. Este proyecto implementa un kata tipo *Gilded Rose* con temática de Harry Potter.
 
-## 📋 Descripción del Proyecto
+## 📋 Descripción
 
-Ollivanders es un sistema que mantiene y actualiza la calidad de las varitas mágicas en inventario según reglas específicas para cada tipo de varita. Cada varita tiene propiedades como nombre, días para vender (*sellIn*) y calidad.
+Ollivanders es un sistema que mantiene y actualiza la calidad de las varitas mágicas en inventario según reglas para cada tipo de varita. Cada varita tiene propiedades como nombre, días para vender (*sellIn*) y calidad (*quality*).
 
-## 🏗️ Estructura del Proyecto
+## 🏗️ Estructura
 
 ```
 ollivanders/
@@ -42,7 +42,7 @@ ollivanders/
 
 ### Tipos Especiales de Varitas
 
-- **`AgedBrie`**: Aumenta de calidad con el tiempo (como el buen vino)
+- **`AgedBrie`**: Aumenta de calidad con el tiempo
 - **`Conjured`**: Decrece el doble de rápido que un item normal
 - **`Backstage`**: Aumenta de calidad conforme se acerca la fecha de venta
 - **`Sulfuras`**: Varita legendaria que nunca disminuye en calidad
